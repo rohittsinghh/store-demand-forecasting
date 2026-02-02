@@ -39,13 +39,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 python run_pipeline.py
 ```
+## Dashboard
+An interactive Streamlit dashboard allows users to:
+- Filter sales by store and item
+- View KPIs and trends
+- Analyze weekday vs weekend demand
 
-Future Improvements
-
-Unstructured text analysis
-
-Interactive dashboards
-
-Model monitoring and retraining
-
+Run:
+```bash
+streamlit run src/streamlit_app.py
+---
+```bash
 
