@@ -48,6 +48,5 @@ An interactive Streamlit dashboard allows users to:
 Run:
 ```bash
 streamlit run src/streamlit_app.py
----
-```bash
+```
 
